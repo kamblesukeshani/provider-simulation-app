@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "name": "Bright Minds Support",
+    "specialization": "Dyslexia Support",
+    "location": "Mumbai",
+    "rating": 4.5,
+    "shortDescription": "Expert help for children with dyslexia.",
+    "longDescription": "Bright Minds Support provides personalized programs for children with dyslexia, focusing on literacy and self-confidence.",
+    "contactEmail": "info@brightminds.com",
+    "phoneNumber": "123-456-7890"
+  },
+  {
+    "id": 2,
+    "name": "Focus First Coaching",
+    "specialization": "ADHD Coaching",
+    "location": "Delhi",
+    "rating": 4.2,
+    "shortDescription": "Tailored ADHD coaching for kids and teens.",
+    "longDescription": "Focus First offers one-on-one coaching for children with ADHD to improve attention, time management, and study skills.",
+    "contactEmail": "hello@focusfirst.com",
+    "phoneNumber": "987-654-3210"
+  },
+  {
+    "id": 3,
+    "name": "Calm Steps",
+    "specialization": "Autism Spectrum Support",
+    "location": "Bangalore",
+    "rating": 4.8,
+    "shortDescription": "Empowering children with autism.",
+    "longDescription": "Calm Steps supports families and children with autism through structured therapy and early intervention strategies.",
+    "contactEmail": "contact@calmsteps.org",
+    "phoneNumber": "900-888-7001"
+  },
+  {
+    "id": 4,
+    "name": "LearnEase",
+    "specialization": "Learning Disability Support",
+    "location": "Hyderabad",
+    "rating": 4.6,
+    "shortDescription": "Holistic learning support programs.",
+    "longDescription": "LearnEase designs programs for children with general learning difficulties, using a mix of technology and hands-on methods.",
+    "contactEmail": "support@learnease.com",
+    "phoneNumber": "808-505-4040"
+  },
+  {
+    "id": 5,
+    "name": "Mind Pathways",
+    "specialization": "Behavioral Therapy",
+    "location": "Chennai",
+    "rating": 4.3,
+    "shortDescription": "Improving behavior through therapy.",
+    "longDescription": "Mind Pathways offers therapy sessions that target emotional regulation, social skills, and behavioral strategies.",
+    "contactEmail": "mind@pathways.com",
+    "phoneNumber": "700-600-3000"
+  }
+]
