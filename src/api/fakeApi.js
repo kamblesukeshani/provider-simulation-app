@@ -4,7 +4,7 @@ export function fetchProviders() {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve(data);
-    }, 1000);
+    }, 800);
   });
 }
 
@@ -12,7 +12,7 @@ export function fetchProviderById(id) {
   return new Promise((resolve) => {
     setTimeout(() => {
       const provider = data.find((p) => p.id === Number(id));
-      resolve(provider);
-    }, 1000);
+      resolve(provider || null);
+    }, 800);
   });
 }

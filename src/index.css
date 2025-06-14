@@ -1,17 +1,92 @@
+* { box-sizing: border-box; }
+
 body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
-  background-color: #f9f9f9;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  background: #f5f6fa;
 }
 
-h2 {
-  text-align: center;
+header.navbar {
+  background: #2563eb;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.provider-card {
+header.navbar a {
+  color: #fff;
+  margin-left: 1rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.search-bar {
+  margin-bottom: 1.5rem;
+}
+
+.search-bar input {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
   border: 1px solid #ccc;
-  background: white;
-  padding: 15px;
-  margin-bottom: 15px;
+  border-radius: 6px;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
+.card {
+  background: #fff;
   border-radius: 8px;
+  padding: 1rem 1.2rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  transition: transform 0.15s ease-in, box-shadow 0.15s ease-in;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.card .btn {
+  display: inline-block;
+  margin-top: 0.8rem;
+  background: #2563eb;
+  color: #fff;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.card .btn:hover {
+  background: #1e4ed8;
+}
+
+@media (max-width: 600px) {
+  header.navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  header.navbar nav {
+    margin-top: 0.5rem;
+  }
 }
